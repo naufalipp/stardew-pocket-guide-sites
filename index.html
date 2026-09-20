@@ -74,6 +74,7 @@
 
       <div class="hidden md:flex space-x-8 items-center font-medium text-gray-600">
         <a href="#home" class="hover:text-stardew-green transition-colors duration-300">Home</a>
+        <a href="#whats-new" class="hover:text-stardew-green transition-colors duration-300 flex items-center gap-1.5 font-bold text-stardew-green"><span class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>What's New</a>
         <a href="#features" class="hover:text-stardew-green transition-colors duration-300">Features</a>
         <a href="#screenshots" class="hover:text-stardew-green transition-colors duration-300">Sneak Peek</a>
         <a href="privacy-policy.html" class="hover:text-stardew-green transition-colors duration-300">Privacy Policy</a>
@@ -95,10 +96,10 @@
     <div id="mobile-menu"
       class="hidden md:hidden absolute w-full glass-nav border-t border-gray-100 shadow-xl pb-6 px-6 pt-4 flex flex-col space-y-4">
       <a href="#home" class="text-lg font-medium text-gray-700 hover:text-stardew-green">Home</a>
+      <a href="#whats-new" class="text-lg font-bold text-stardew-green flex items-center gap-2"><span class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>What's New (v2.3.0)</a>
       <a href="#features" class="text-lg font-medium text-gray-700 hover:text-stardew-green">Features</a>
       <a href="#screenshots" class="text-lg font-medium text-gray-700 hover:text-stardew-green">Sneak Peek</a>
-      <a href="privacy-policy.html" class="text-lg font-medium text-gray-700 hover:text-stardew-green">Privacy
-        Policy</a>
+      <a href="privacy-policy.html" class="text-lg font-medium text-gray-700 hover:text-stardew-green">Privacy Policy</a>
       <hr class="border-gray-200">
       <a href="https://play.google.com/store/apps/details?id=com.id.stardew_pocket_guide&hl=en&referrer=utm_source%3Dwebsite%26utm_medium%3Dmobile_menu%26utm_campaign%3Dspg_sites" target="_blank"
         class="text-center bg-stardew-green text-white px-6 py-3 rounded-xl font-bold flex items-center justify-center gap-2.5">
@@ -117,9 +118,13 @@
         <!-- Text Content -->
         <div class="w-full md:w-1/2 text-center md:text-left" data-aos="fade-right" data-aos-duration="1000">
           <div
-            class="inline-block px-4 py-2 bg-white/60 backdrop-blur-md rounded-full text-stardew-green font-bold text-sm tracking-wide mb-6 border border-white shadow-sm"
+            class="inline-flex items-center gap-2 px-4 py-2 bg-white/75 backdrop-blur-md rounded-full text-stardew-green font-bold text-sm tracking-wide mb-6 border border-green-100 shadow-sm"
             data-aos="zoom-in" data-aos-delay="200">
-            🌟 Stardew Valley 1.6 Update Ready — v2.2.0
+            <span class="flex h-2 w-2 relative">
+              <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
+              <span class="relative inline-flex rounded-full h-2 w-2 bg-emerald-500"></span>
+            </span>
+            <span>✨ NEW: v2.3.0 Update — Wardrobe Studio, TV Guide & Cloud Sync</span>
           </div>
 
           <h1 class="text-5xl md:text-6xl lg:text-7xl font-bold mb-6 text-gray-900 leading-tight">
@@ -202,11 +207,168 @@
       </div>
     </section>
 
+    <!-- What's New in v2.3.0 Section -->
+    <section id="whats-new" class="py-20 bg-gradient-to-b from-stardew-bg via-green-50/40 to-white relative overflow-hidden border-t border-green-100/60">
+      <div class="container mx-auto px-6 relative z-10">
+        <div class="text-center max-w-3xl mx-auto mb-16" data-aos="fade-up">
+          <div class="inline-flex items-center gap-2 px-3.5 py-1.5 bg-emerald-100 text-emerald-900 rounded-full text-xs font-extrabold uppercase tracking-wider mb-4 border border-emerald-200">
+            <i class="ph-fill ph-sparkle text-sm text-emerald-600"></i> LATEST RELEASE NOTE
+          </div>
+          <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4 font-stardew leading-tight">
+            What's New in <span class="text-stardew-green">Version 2.3.0</span>
+          </h2>
+          <p class="text-lg text-gray-600 font-light max-w-2xl mx-auto">
+            Fresh out of the farm! Discover new fashion tools, daily luck forecasts, cloud sync, and enhanced Stardew 1.6 guides.
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto">
+          
+          <!-- Card 1: Wardrobe & Mannequin -->
+          <div class="bg-white p-6 rounded-2xl border border-gray-100 shadow-sm hover:shadow-xl hover:border-pink-200 transition-all duration-300 group flex flex-col justify-between" data-aos="fade-up" data-aos-delay="0">
+            <div>
+              <div class="w-12 h-12 rounded-xl bg-pink-100 text-pink-600 flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+                <i class="ph ph-coat-hanger text-2xl"></i>
+              </div>
+              <div class="text-[11px] font-bold uppercase tracking-wider text-pink-600 mb-1">Fashion Studio</div>
+              <h3 class="text-xl font-bold text-gray-900 mb-2 font-stardew group-hover:text-pink-600 transition-colors">👗 Wardrobe & Mannequin</h3>
+              <p class="text-sm text-gray-600 font-light leading-relaxed">
+                Mix, match, and preview outfits with curated fashion themes, full clothing catalog, and instant set customization.
+              </p>
+            </div>
+            <div class="mt-4 pt-3 border-t border-gray-50 flex items-center gap-1 text-xs font-semibold text-pink-600">
+              <span>Try styles instantly</span> <i class="ph ph-arrow-right"></i>
+            </div>
+          </div>
+
+          <!-- Card 2: TV Channels & Daily Luck -->
+          <div class="bg-white p-6 rounded-2xl border border-gray-100 shadow-sm hover:shadow-xl hover:border-amber-200 transition-all duration-300 group flex flex-col justify-between" data-aos="fade-up" data-aos-delay="100">
+            <div>
+              <div class="w-12 h-12 rounded-xl bg-amber-100 text-amber-700 flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+                <i class="ph ph-television text-2xl"></i>
+              </div>
+              <div class="text-[11px] font-bold uppercase tracking-wider text-amber-700 mb-1">Daily Broadcast</div>
+              <h3 class="text-xl font-bold text-gray-900 mb-2 font-stardew group-hover:text-amber-700 transition-colors">📺 TV Channels & Oracle Luck</h3>
+              <p class="text-sm text-gray-600 font-light leading-relaxed">
+                Comprehensive TV broadcast schedule with Welwick's Oracle fortune matrix, Queen of Sauce, and Weather Forecast.
+              </p>
+            </div>
+            <div class="mt-4 pt-3 border-t border-gray-50 flex items-center gap-1 text-xs font-semibold text-amber-700">
+              <span>Check daily luck</span> <i class="ph ph-arrow-right"></i>
+            </div>
+          </div>
+
+          <!-- Card 3: Cloud Backup & Sync -->
+          <div class="bg-white p-6 rounded-2xl border border-gray-100 shadow-sm hover:shadow-xl hover:border-blue-200 transition-all duration-300 group flex flex-col justify-between" data-aos="fade-up" data-aos-delay="200">
+            <div>
+              <div class="w-12 h-12 rounded-xl bg-blue-100 text-blue-600 flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+                <i class="ph ph-cloud-arrow-up text-2xl"></i>
+              </div>
+              <div class="text-[11px] font-bold uppercase tracking-wider text-blue-600 mb-1">Cloud Sync</div>
+              <h3 class="text-xl font-bold text-gray-900 mb-2 font-stardew group-hover:text-blue-600 transition-colors">☁️ Google Drive Backup</h3>
+              <p class="text-sm text-gray-600 font-light leading-relaxed">
+                Securely backup and restore your farm progress checklists to Google Drive across devices with one tap.
+              </p>
+            </div>
+            <div class="mt-4 pt-3 border-t border-gray-50 flex items-center gap-1 text-xs font-semibold text-blue-600">
+              <span>Never lose progress</span> <i class="ph ph-arrow-right"></i>
+            </div>
+          </div>
+
+          <!-- Card 4: Trinkets & Combat Mastery -->
+          <div class="bg-white p-6 rounded-2xl border border-gray-100 shadow-sm hover:shadow-xl hover:border-purple-200 transition-all duration-300 group flex flex-col justify-between" data-aos="fade-up" data-aos-delay="300">
+            <div>
+              <div class="w-12 h-12 rounded-xl bg-purple-100 text-purple-600 flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+                <i class="ph ph-magic-wand text-2xl"></i>
+              </div>
+              <div class="text-[11px] font-bold uppercase tracking-wider text-purple-600 mb-1">1.6 Combat</div>
+              <h3 class="text-xl font-bold text-gray-900 mb-2 font-stardew group-hover:text-purple-600 transition-colors">🔮 Trinkets & Mastery</h3>
+              <p class="text-sm text-gray-600 font-light leading-relaxed">
+                Complete guide & stats for Magic Quiver, Fairy Box, Basilisk Paw, Frog Egg, and reforging capabilities.
+              </p>
+            </div>
+            <div class="mt-4 pt-3 border-t border-gray-50 flex items-center gap-1 text-xs font-semibold text-purple-600">
+              <span>View drop tables</span> <i class="ph ph-arrow-right"></i>
+            </div>
+          </div>
+
+          <!-- Card 5: Skill Books & Bookseller -->
+          <div class="bg-white p-6 rounded-2xl border border-gray-100 shadow-sm hover:shadow-xl hover:border-emerald-200 transition-all duration-300 group flex flex-col justify-between" data-aos="fade-up" data-aos-delay="0">
+            <div>
+              <div class="w-12 h-12 rounded-xl bg-emerald-100 text-emerald-700 flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+                <i class="ph ph-books text-2xl"></i>
+              </div>
+              <div class="text-[11px] font-bold uppercase tracking-wider text-emerald-700 mb-1">Perks & EXP</div>
+              <h3 class="text-xl font-bold text-gray-900 mb-2 font-stardew group-hover:text-emerald-700 transition-colors">📚 Skill Books Guide</h3>
+              <p class="text-sm text-gray-600 font-light leading-relaxed">
+                Track all 1.6 Skill Books from the Bookseller with EXP multipliers, permanent perks, costs, and visit schedules.
+              </p>
+            </div>
+            <div class="mt-4 pt-3 border-t border-gray-50 flex items-center gap-1 text-xs font-semibold text-emerald-700">
+              <span>Max your skills</span> <i class="ph ph-arrow-right"></i>
+            </div>
+          </div>
+
+          <!-- Card 6: Queen of Sauce in Calendar -->
+          <div class="bg-white p-6 rounded-2xl border border-gray-100 shadow-sm hover:shadow-xl hover:border-orange-200 transition-all duration-300 group flex flex-col justify-between" data-aos="fade-up" data-aos-delay="100">
+            <div>
+              <div class="w-12 h-12 rounded-xl bg-orange-100 text-orange-600 flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+                <i class="ph ph-cooking-pot text-2xl"></i>
+              </div>
+              <div class="text-[11px] font-bold uppercase tracking-wider text-orange-600 mb-1">Cooking Schedule</div>
+              <h3 class="text-xl font-bold text-gray-900 mb-2 font-stardew group-hover:text-orange-600 transition-colors">🍳 Queen of Sauce Sync</h3>
+              <p class="text-sm text-gray-600 font-light leading-relaxed">
+                Full 2-year cooking recipe broadcast schedule and re-runs mapped directly into your daily Farm Calendar.
+              </p>
+            </div>
+            <div class="mt-4 pt-3 border-t border-gray-50 flex items-center gap-1 text-xs font-semibold text-orange-600">
+              <span>Never miss a recipe</span> <i class="ph ph-arrow-right"></i>
+            </div>
+          </div>
+
+          <!-- Card 7: Advanced Search & Price Slider -->
+          <div class="bg-white p-6 rounded-2xl border border-gray-100 shadow-sm hover:shadow-xl hover:border-indigo-200 transition-all duration-300 group flex flex-col justify-between" data-aos="fade-up" data-aos-delay="200">
+            <div>
+              <div class="w-12 h-12 rounded-xl bg-indigo-100 text-indigo-600 flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+                <i class="ph ph-sliders-horizontal text-2xl"></i>
+              </div>
+              <div class="text-[11px] font-bold uppercase tracking-wider text-indigo-600 mb-1">Fast Lookup</div>
+              <h3 class="text-xl font-bold text-gray-900 mb-2 font-stardew group-hover:text-indigo-600 transition-colors">🔍 Price Filter Search</h3>
+              <p class="text-sm text-gray-600 font-light leading-relaxed">
+                Enhanced search tab featuring a Gold price range slider, item category filtering, and instant image caching.
+              </p>
+            </div>
+            <div class="mt-4 pt-3 border-t border-gray-50 flex items-center gap-1 text-xs font-semibold text-indigo-600">
+              <span>Find items faster</span> <i class="ph ph-arrow-right"></i>
+            </div>
+          </div>
+
+          <!-- Card 8: Calendar Filter Chips -->
+          <div class="bg-white p-6 rounded-2xl border border-gray-100 shadow-sm hover:shadow-xl hover:border-teal-200 transition-all duration-300 group flex flex-col justify-between" data-aos="fade-up" data-aos-delay="300">
+            <div>
+              <div class="w-12 h-12 rounded-xl bg-teal-100 text-teal-600 flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+                <i class="ph ph-calendar-check text-2xl"></i>
+              </div>
+              <div class="text-[11px] font-bold uppercase tracking-wider text-teal-600 mb-1">Productivity</div>
+              <h3 class="text-xl font-bold text-gray-900 mb-2 font-stardew group-hover:text-teal-600 transition-colors">📅 Calendar & Planner UI</h3>
+              <p class="text-sm text-gray-600 font-light leading-relaxed">
+                Filter chips for Birthdays, Festivals, and Queen of Sauce with refined crop profit planner responsive layouts.
+              </p>
+            </div>
+            <div class="mt-4 pt-3 border-t border-gray-50 flex items-center gap-1 text-xs font-semibold text-teal-600">
+              <span>Plan your season</span> <i class="ph ph-arrow-right"></i>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
     <!-- Features Section -->
     <section id="features" class="py-24 relative bg-white">
       <div class="container mx-auto px-6">
         <div class="text-center max-w-3xl mx-auto mb-20" data-aos="fade-up">
-          <h2 class="text-xs font-bold tracking-widest text-stardew-green uppercase mb-3">v2.2.0 Features</h2>
+          <h2 class="text-xs font-bold tracking-widest text-stardew-green uppercase mb-3">Core & Perfection Features</h2>
           <h3 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6 font-stardew leading-tight"
             style="line-height: 1;">Everything You Need For <br><span class="text-stardew-brown">100% True Perfection</span>
           </h3>
@@ -553,6 +715,7 @@
         </div>
         <div class="flex gap-6 font-medium">
           <a href="#home" class="hover:text-white transition-colors">Home</a>
+          <a href="#whats-new" class="hover:text-white transition-colors">What's New</a>
           <a href="#features" class="hover:text-white transition-colors">Features</a>
           <a href="privacy-policy.html" class="hover:text-white transition-colors">Privacy Policy</a>
         </div>
