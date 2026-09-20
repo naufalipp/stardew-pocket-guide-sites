@@ -145,22 +145,26 @@
                 <span>Get on Google Play</span>
               </a>
             </div>
-            <div class="flex items-center gap-3 bg-white/85 backdrop-blur-md px-4 py-2.5 rounded-2xl border border-gray-100 shadow-sm">
-              <div class="flex flex-col">
-                <div class="flex items-center gap-1.5">
-                  <div class="flex text-amber-400 text-sm">
-                    <i class="ph-fill ph-star"></i>
-                    <i class="ph-fill ph-star"></i>
-                    <i class="ph-fill ph-star"></i>
-                    <i class="ph-fill ph-star"></i>
-                    <i class="ph-fill ph-star"></i>
-                  </div>
-                  <span class="font-extrabold text-gray-900 text-sm">4.8</span>
-                  <span class="text-xs text-gray-400 font-light">/ 5.0</span>
+            <!-- Google Play Rating & Downloads Split Badge -->
+            <div class="flex items-center gap-3.5 bg-white/90 backdrop-blur-md px-4 py-2.5 rounded-2xl border border-gray-100 shadow-sm">
+              <!-- Rating Column -->
+              <div class="flex flex-col items-center">
+                <div class="flex items-center gap-1">
+                  <span class="font-extrabold text-gray-900 text-sm leading-tight">4.8</span>
+                  <i class="ph-fill ph-star text-amber-400 text-sm"></i>
                 </div>
-                <div class="text-xs text-gray-600 font-medium flex items-center gap-1 mt-0.5">
-                  <span class="font-bold text-stardew-green">17K+</span> Happy Farmers
+                <span class="text-[10px] text-gray-500 font-medium">Rating</span>
+              </div>
+
+              <!-- Vertical Divider -->
+              <div class="h-7 w-[1px] bg-gray-200"></div>
+
+              <!-- Downloads Column -->
+              <div class="flex flex-col items-center">
+                <div class="flex items-center gap-1 font-extrabold text-stardew-green text-sm leading-tight">
+                  <span>17K+</span>
                 </div>
+                <span class="text-[10px] text-gray-500 font-medium">Downloads</span>
               </div>
             </div>
           </div>
@@ -704,15 +708,22 @@
             <img src="images/playstore.png" alt="Google Play" class="w-6 h-6 object-contain" />
             <span>Get Started For Free</span>
           </a>
-          <div class="flex items-center gap-2 px-4 py-3 rounded-full bg-white/15 backdrop-blur-md border border-white/25 text-white text-sm font-medium shadow-sm">
-            <div class="flex text-yellow-300 text-base">
-              <i class="ph-fill ph-star"></i>
-              <i class="ph-fill ph-star"></i>
-              <i class="ph-fill ph-star"></i>
-              <i class="ph-fill ph-star"></i>
-              <i class="ph-fill ph-star"></i>
+          <div class="flex items-center gap-4 px-5 py-2.5 rounded-full bg-white/15 backdrop-blur-md border border-white/25 text-white text-sm font-medium shadow-sm">
+            <!-- Rating -->
+            <div class="flex items-center gap-1.5">
+              <span class="font-bold text-white text-base">4.8</span>
+              <i class="ph-fill ph-star text-yellow-300 text-sm"></i>
+              <span class="text-white/70 text-xs">Rating</span>
             </div>
-            <span><strong class="font-bold">4.8</strong> &bull; 17K+ Happy Farmers</span>
+
+            <!-- Divider -->
+            <div class="h-5 w-[1px] bg-white/30"></div>
+
+            <!-- Downloads -->
+            <div class="flex items-center gap-1.5">
+              <span class="font-bold text-yellow-300 text-base">17K+</span>
+              <span class="text-white/80 text-xs">Downloads</span>
+            </div>
           </div>
         </div>
       </div>
